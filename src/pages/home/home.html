@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item>
+    <ion-label color="primary">Name :</ion-label>
+    <ion-input type="text" placeholder="set your name" [(ngModel)]="inputNameSaved"></ion-input>
+  </ion-item>
+  <button ion-button full color="primary" (click)="changePage()" full>Change page with input</button>
+</ion-content>
